@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+    color:antiquewhite;
+}
+.btn-container {
+
+    display: flex;
+    border: #4CAF50;
+    padding: 10px 20px; 
+
+}
+.mainButtons {
+
+   
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+.increment-btn{
+    color: orange;
+    background-color: black;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 45px;
+    
+}
+.save-btn {
+    color:#4CAF50;
+    background-color: black;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 45px;
+}
+
+.reset-btn{
+    color: black;
+    background-color: red;
+    padding: 10px 60px;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 45px;
+    
+}
+
+.reset-btn:hover {
+    background-color: rgb(90, 0, 0);
+}

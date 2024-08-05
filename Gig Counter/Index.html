@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Gig counter</h1>
+    <div class="btn-container">
+      <div class="mainButtons">
+        <button class="increment-btn" id="increment-btn" onclick="increment()">
+          Count
+        </button>
+        <button class="save-btn" id="save-btn" onclick="save()">Save</button>
+      </div>
+    </div>
+    <h2 id="count-el">0</h2>
+    <h2 id="save-el">0</h2>
+    <div class="resetButton">
+      <button class="reset-btn" id="reset-btn" onclick="reset()">Reset</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
